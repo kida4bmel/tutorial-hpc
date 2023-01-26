@@ -11,9 +11,9 @@ Slurm ist Open Source und kann unter [https://slurm.schedmd.com/](https://slurm.
 
 ## Wie funktioniert Slurm?
 
-![slurm_bsp](img/slurm_bsp.png) 
+[slurm_bsp](img/slurm_bsp.png) 
 
-![slurm_bsp2](img/slurm_bsp2.png)
+[slurm_bsp2](img/slurm_bsp2.png)
 
 ## Wie kann ich Slurm nutzen?
 
