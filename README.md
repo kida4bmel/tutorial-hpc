@@ -13,7 +13,7 @@ In diesem Tutorial werden wir uns jedoch mit der Nutzung von Slurm befassen, nic
 
 ## Wie funktioniert Slurm?
 
-![slurm_bsp2](/img/slurm_bsp2.png)
+![slurm_bsp2](https://github.com/Jaikinator/SlurmTutorial/blob/main/img/Slurm_bsp2.png)
 
 Das vereinfachte Schema zeigt recht gut, wie Slurm funktioniert.
 Slurm ist in der Lage, die Ressourcen eines HPCs effizient zu nutzen, in dem es die Jobs gleichmäßig auf die Nodes verteilt. 
