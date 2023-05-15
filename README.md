@@ -158,7 +158,7 @@ Genauso wie bei CPU Jobs muss der Nutzer die benötigten Ressourcen angeben.
 
 Ein Beispiel für einen Befehl, der einen GPU Job startet, ist:
 
-    srun -n 1 -c 1 --mem 1G --time 1:00:00 --partition=graphics --gpus-per-node=T4:1--export=ALL --pty bash python3 test.py
+    srun -n 1 -c 1 --mem 1G --time 1:00:00 --partition=graphics --gpus-per-node=T4:1--export=ALL --pty bash 
 
 Nun wird anstelle von `--partition=compute` die Partition `--partition=graphic` verwendet. 
 Diese ist mit GPUs ausgestattet.
