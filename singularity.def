@@ -2,7 +2,7 @@ Bootstrap: library
 From: ubuntu:22.04
 
 %environment
-    export MYPORT=1235
+    export MYPORT=1234
 
 %files
     requirements.txt /hpc-util/requirements.txt
@@ -11,6 +11,7 @@ From: ubuntu:22.04
 %post
     apt update && apt install -y python3 python3-pip
     pip install -r /hpc-util/requirements.txt
+    echo 'export MYPORT=1235' >> $SINGULARITY_ENVIRONMENT
 
 %startscript
     python3 -m http.server ${MYPORT}
