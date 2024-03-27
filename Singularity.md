@@ -179,6 +179,7 @@ From: ubuntu:22.04
     echo 'export MYPORT=1235' >> $SINGULARITY_ENVIRONMENT # "dynamic way of setting environment"
 
 %startscript # commands are executed when image is started as instance
+    cd /hpc-util # substitute for dockers WORKDIR
     python3 -m http.server ${MYPORT}
 
 %runscript # commands are executed when image is run
