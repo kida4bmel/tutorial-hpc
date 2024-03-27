@@ -357,5 +357,6 @@ More on this [here](https://docs.sylabs.io/guides/4.1/user-guide/gpu.html)
 - environment
     - Host passes some of its env unless `--cleanenv` or `-e` is used
     - Env is inherted/set by base-image, definition file, etc.
+- [SCIF apps](https://docs.sylabs.io/guides/4.1/user-guide/definition_files.html#apps)
 
 
